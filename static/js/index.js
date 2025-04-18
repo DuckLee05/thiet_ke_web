@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
         slide2.querySelector('p').textContent = 'SUV HIỆU SUẤT CAO ĐỈNH CAO';
         
         // Add background images
-        slide1.style.backgroundImage = "url('/placeholder.svg?height=1080&width=1920&text=Aventador')";
-        slide2.style.backgroundImage = "url('/placeholder.svg?height=1080&width=1920&text=Urus')";
-        slides[0].style.backgroundImage = "url('/placeholder.svg?height=1080&width=1920&text=Huracan')";
+        slide1.style.backgroundImage = "url('/static/images/aventador_car.png')";
+        slide2.style.backgroundImage = "url('/static/images/urus_car.png')";
+        slides[0].style.backgroundImage = "url('/static/images/huracan_car.png')";
         
         // Remove active class from clones
         slide1.classList.remove('active');
