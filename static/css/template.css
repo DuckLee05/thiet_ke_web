@@ -52,9 +52,23 @@ ul {
     align-items: center;
 }
 
+.logo a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
 .logo-svg {
-    color: #e9b000; /* hoặc bất kỳ màu nào bạn muốn */
-}  
+    color: #e9b000;
+    width: 110px; /* hoặc 40px tuỳ ý */
+    height: auto;
+    display: block;
+    pointer-events: none; /* nếu bạn không muốn SVG xử lý sự kiện */
+}
 
 .main-nav {
     display: flex;
