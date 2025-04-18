@@ -66,18 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Auto slide
     let slideInterval = setInterval(nextSlide, 5000);
     
-    // Pause auto slide on hover
-    const heroSection = document.querySelector('.hero-section');
-    if (heroSection) {
-        heroSection.addEventListener('mouseenter', () => {
-            clearInterval(slideInterval);
-        });
-        
-        heroSection.addEventListener('mouseleave', () => {
-            slideInterval = setInterval(nextSlide, 5000);
-        });
-    }
-    
     // Testimonial Slider
     const testimonialSlides = document.querySelectorAll('.testimonial-slide');
     const dots = document.querySelectorAll('.dot');
