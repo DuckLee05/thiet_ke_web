@@ -52,9 +52,9 @@ ul {
     align-items: center;
 }
 
-.logo img {
-    height: 40px;
-}
+.logo-svg {
+    color: #e9b000; /* hoặc bất kỳ màu nào bạn muốn */
+}  
 
 .main-nav {
     display: flex;
